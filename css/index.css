@@ -1,0 +1,86 @@
+#bannerWrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+#bannerWrap img {
+  width: 100%;
+  vertical-align: middle;
+  margin-top: -5%;
+}
+#oneWrap {
+  padding-top: 3%;
+  padding-left: 0;
+  padding-right: 0;
+}
+#oneWrap > .row > #oneWrapDiv {
+  position: relative;
+}
+#oneWrap > .row > #oneWrapDiv > #oneWrapImg {
+  width: 30%;
+  position: absolute;
+  right: 74%;
+  bottom: 10%;
+}
+#oneWrap > .row > div {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding-bottom: 2%;
+}
+#oneWrap > .row .text_p {
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#oneWrap > .row .text_btn {
+  background-color: #f7982a;
+  padding: 10px 25px;
+}
+@media screen and (max-width: 768px) {
+  #oneWrap > .row > #oneWrapDiv > #oneWrapImg {
+    right: 66%;
+    top: 0;
+  }
+}
+#oneWrap > #onwWrapRow {
+  width: 100%;
+  padding-top: 5%;
+}
+#twoWrap {
+  margin-top: 5%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url(../img/section2bg.png);
+  color: white;
+}
+#twoWrap > .row {
+  padding-top: 2%;
+}
+#twoWrap > #twoWrapRow {
+  width: 100%;
+}
+#twoWrap .text_p {
+  padding-top: 5%;
+}
+#threeWrap {
+  padding-top: 3%;
+  padding-left: 0;
+  padding-right: 0;
+}
+#threeWrap > .row {
+  width: 100%;
+}
+#threeWrap > #threeWrapFirstRow {
+  padding-top: 2%;
+  padding-bottom: 3.5%;
+}
+#threeWrap > #threeWrapFirstRow > button {
+  background-color: #f6f6f6;
+  border-color: transparent;
+  color: black;
+}
+#threeWrap > #threeWrapFirstRow > .on {
+  background-color: #f7982a;
+  color: white;
+}

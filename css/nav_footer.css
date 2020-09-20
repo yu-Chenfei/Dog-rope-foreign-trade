@@ -1,0 +1,42 @@
+#navBar {
+  background-color: white;
+  border: transparent;
+  box-shadow: 0 0 10px rgba(173, 173, 173, 0.3);
+}
+#navBar #navImg {
+  margin-top: -7%;
+  height: 260%;
+}
+#navBar #navbar > #navList {
+  margin-left: 100px;
+}
+#navBar #navbar > #navList li {
+  border-bottom: 2px solid transparent;
+}
+#navBar #navbar > #navList li:hover {
+  border-bottom-color: #f7982a;
+}
+#navBar #navbar > #navList li a {
+  color: black;
+  background-color: white;
+}
+#navBar #navbar > #navList li a:hover {
+  color: #f7982a;
+}
+#navBar #navbar > #navList .on {
+  border-bottom-color: #f7982a;
+}
+#navBar #navbar > #navList .on a {
+  color: #f7982a;
+}
+@media screen and (max-width: 768px) {
+  #navBar #navImg {
+    height: 232%;
+    margin-top: -8%;
+  }
+  #navBar #navbar > #navList {
+    margin-top: 0;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+}

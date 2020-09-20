@@ -19,6 +19,7 @@
   "homepage": "https://github.com/yu-Chenfei/Dog-rope-foreign-trade#readme",
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "swiper": "^6.2.0"
   }
 }

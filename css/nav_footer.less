@@ -1,0 +1,52 @@
+// 导航栏
+#navBar{
+  background-color: white;
+  border: transparent;
+  box-shadow: 0 0 10px rgba(173,173,173,.3);
+  #navImg{
+    margin-top: -7%;
+    height: 260%;
+  }
+  #navbar{
+    &>#navList{
+      // margin-top: 24px;
+      // margin-bottom: 24px;
+      margin-left: 100px;
+      li{
+        border-bottom: 2px solid transparent;
+        &:hover{
+          border-bottom-color: #f7982a;
+        }
+        a{
+          color: black;
+          background-color: white;
+          &:hover{
+            color: #f7982a;
+          }
+        }
+      }
+      .on{
+        border-bottom-color: #f7982a;
+        a{
+          color: #f7982a;
+        }
+      }
+    }
+  }
+}
+// 移动端
+@media screen and (max-width:768px){
+  #navBar{
+    #navImg{
+      height: 232%;
+      margin-top: -8%;
+    }
+    #navbar{
+      &>#navList{
+        margin-top: 0;
+        margin-left: -15px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
