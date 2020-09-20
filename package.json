@@ -1,8 +1,24 @@
 {
-  "name": "狗绳外贸",
+  "name": "Dog-rope-foreign-trade",
   "version": "1.0.0",
+  "description": "狗绳外贸",
   "main": "index.js",
-  "repository": "https://github.com/yu-Chenfei/Dog-rope-foreign-trade.git",
-  "author": "yuchenfei <1786358911@qq.com>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yu-Chenfei/Dog-rope-foreign-trade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yu-Chenfei/Dog-rope-foreign-trade/issues"
+  },
+  "homepage": "https://github.com/yu-Chenfei/Dog-rope-foreign-trade#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.5.1"
+  }
 }
