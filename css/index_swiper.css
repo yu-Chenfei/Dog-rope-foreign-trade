@@ -12,7 +12,9 @@ body {
   padding: 20px 0;
   margin-left: auto;
   margin-right: auto;
-
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .swiper-container img{
@@ -22,7 +24,6 @@ body {
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   background: #fff;
   height: 180px;
   position: relative;
@@ -65,16 +66,193 @@ body {
 /* 前进按钮 */
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
   right: -7%;
+  margin-top: 7%;
   color: black;
   outline: none;
 }
 /* 后退按钮 */
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
   left: -7%;
+  margin-top: 7%;
   color: black;
   outline: none;
 }
 
 .none_swiper{
   opacity: 0;
+}
+
+/* ipad pro */
+@media screen and (max-width: 1024px){
+  .swiper-container {
+    width: 80%;
+    height: auto;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+  /* 前进后退按钮的位置 */
+/* 前进按钮 */
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  right: 3%;
+  margin-top: 7%;
+  color: black;
+  outline: none;
+}
+/* 后退按钮 */
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  left: 3%;
+  margin-top: 7%;
+  color: black;
+  outline: none;
+}
+}
+
+/* ipad */
+@media screen and (max-width: 768px){
+  .swiper-slide{
+    height: 120px;
+  }
+  .swiper-slide p{
+    transform: scale(.7);
+    bottom: 3%;
+    left: -17%;
+  }
+}
+
+/* Surface Duo */
+@media screen and (max-width: 540px){
+  .swiper-container{
+    left: 52%;
+  }
+  .swiper-slide{
+    height: 100px;
+  }
+  .swiper-slide p{
+    transform: scale(.4);
+    bottom: 3%;
+    left: -51%;
+  }
+  /* 前进后退按钮的大小 */
+/* 前进按钮 */
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  right: 2%;
+  margin-top: 9%;
+  color: black;
+  outline: none;
+  transform: scale(.5);
+}
+/* 后退按钮 */
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  left: 6%;
+  margin-top: 9%;
+  color: black;
+  outline: none;
+  transform: scale(.5);
+}
+}
+
+/* iPhone 6/7/8 Plus */
+@media screen and (max-width: 414px){
+  .swiper-container{
+    width: 70%;
+    left: 56%;
+  }
+  .swiper-slide{
+    height: 47px;
+  }
+  .swiper-slide p{
+    transform: scale(.2);
+    bottom: -20%;
+    left: -132%;
+  }
+  /* 前进后退按钮的大小 */
+/* 前进按钮 */
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  right: 2%;
+  margin-top: 4%;
+  color: black;
+  outline: none;
+  transform: scale(.3);
+}
+/* 后退按钮 */
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  left: 13%;
+  margin-top: 4%;
+  color: black;
+  outline: none;
+  transform: scale(.3);
+}
+}
+
+/* iPhone X */
+@media screen and (max-width: 375px){
+  .swiper-container{
+    width: 70%;
+    left: 56%;
+  }
+  .swiper-slide{
+    height: 45px;
+  }
+  .swiper-slide p{
+    transform: scale(.2);
+    bottom: -20%;
+    left: -170%;
+  }
+  /* 前进后退按钮的大小 */
+/* 前进按钮 */
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  right: 2%;
+  margin-top: 4%;
+  color: black;
+  outline: none;
+  transform: scale(.3);
+}
+/* 后退按钮 */
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  left: 13%;
+  margin-top: 4%;
+  color: black;
+  outline: none;
+  transform: scale(.3);
+}
+}
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+  .swiper-container{
+    width: 100%;
+    left: 52%;
+  }
+  .swiper-slide{
+    height: 47px;
+  }
+  .swiper-slide p{
+    transform: scale(.2);
+    bottom: -20%;
+    left: -108%;
+  }
+  /* 前进后退按钮的大小 */
+  /* 前进按钮 */
+  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: 2%;
+    margin-top: 4%;
+    color: black;
+    outline: none;
+    transform: scale(.3);
+    display: none;
+  }
+  /* 后退按钮 */
+  .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 6%;
+    margin-top: 4%;
+    color: black;
+    outline: none;
+    transform: scale(.3);
+    display: none;
+  }
 }

@@ -6,7 +6,7 @@
     $(this).css({ 'backgroundColor': '#f7982a', 'color': 'white' }).siblings().css({ 'backgroundColor': '#f6f6f6', 'color': 'black' });
     $('.none_swiper').css('opacity', 1);
     // swiper块
-    $('#threeWrapSecondRow>div').eq($index).css('display', 'block').siblings().css('display', 'none');
+    $('#threeWrapSecondRow>div').eq($index).css('opacity', 1).siblings().css('opacity', 0);
   });
 
   // swiper

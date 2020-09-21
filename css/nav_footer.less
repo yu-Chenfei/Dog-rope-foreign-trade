@@ -34,6 +34,69 @@
     }
   }
 }
+
+// 底栏
+#footerWrap{
+  margin-top: 19%;
+  padding: 0;
+  background-image: url(../img/矩形\ 9.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  &>.row{
+    width: 100%;
+    margin: 0;
+  }
+  &>#footerWrapForm{
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    &>hr{
+      margin: 8% auto;
+      border: 1px solid #2c4058;
+      width: 100px;
+    }
+    p{
+      padding: 8% 0;
+      padding-left: 20%;
+    }
+    input{
+      width: 80%;
+      padding-top: 10%;
+      padding-bottom: 5%;
+      border: none;
+      border-bottom: 1px solid #d5d8dd;
+      color: #d5d8dd;
+      outline: none;
+      &:hover{
+        border-bottom-color: black;
+      }
+    }
+    button{
+      margin-top: 5%;
+      outline: none;
+    }
+  }
+  &>#footerWrapSecondRow{
+    padding-top: 30%;
+    padding-bottom: 5%;
+    img{
+      margin-left: 10%;
+    }
+    p{
+      color: white;
+      padding-top: 2.4%;
+    }
+  }
+}
+
+// iPad Pro
+@media screen and (max-width: 1024px){
+  #footerWrap{
+    margin-top: 25%;
+  }
+}
+
 // 移动端
 @media screen and (max-width:768px){
   #navBar{
@@ -47,6 +110,36 @@
         margin-left: -15px;
         margin-bottom: 0;
       }
+    }
+  }
+  #footerWrap{
+    &>#footerWrapSecondRow{
+      padding-top: 76%;
+    }
+  }
+}
+
+// iPhone 6/7/8 Plus
+@media screen and (max-width: 414px){
+  #footerWrap{
+    &>#footerWrapSecondRow{
+      padding-top: 156%;
+    }
+    &>#footerWrapForm{
+      top: 9%;
+    }
+  }
+}
+
+// iPhone 5/SE
+@media screen and (max-width: 320px){
+  #footerWrap{
+    margin-top: 25%;
+    &>#footerWrapSecondRow{
+      padding-top: 176%;
+    }
+    &>#footerWrapForm{
+      top: 9%;
     }
   }
 }

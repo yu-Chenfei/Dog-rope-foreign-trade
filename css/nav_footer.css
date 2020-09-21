@@ -29,6 +29,64 @@
 #navBar #navbar > #navList .on a {
   color: #f7982a;
 }
+#footerWrap {
+  margin-top: 19%;
+  padding: 0;
+  background-image: url(../img/矩形\ 9.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#footerWrap > .row {
+  width: 100%;
+  margin: 0;
+}
+#footerWrap > #footerWrapForm {
+  background-color: white;
+  position: absolute;
+  top: 24%;
+}
+#footerWrap > #footerWrapForm > hr {
+  margin: 8% auto;
+  border: 1px solid #2c4058;
+  width: 100px;
+}
+#footerWrap > #footerWrapForm p {
+  padding: 8% 0;
+  padding-left: 20%;
+}
+#footerWrap > #footerWrapForm input {
+  width: 80%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  border: none;
+  border-bottom: 1px solid #d5d8dd;
+  color: #d5d8dd;
+  outline: none;
+}
+#footerWrap > #footerWrapForm input:hover {
+  border-bottom-color: black;
+}
+#footerWrap > #footerWrapForm button {
+  margin-top: 5%;
+  outline: none;
+}
+#footerWrap > #footerWrapSecondRow {
+  padding-top: 30%;
+  padding-bottom: 5%;
+}
+#footerWrap > #footerWrapSecondRow img {
+  margin-left: 10%;
+}
+#footerWrap > #footerWrapSecondRow p {
+  color: white;
+  padding-top: 2.4%;
+}
+@media screen and (max-width: 1024px) {
+  #footerWrap {
+    margin-top: 25%;
+  }
+}
 @media screen and (max-width: 768px) {
   #navBar #navImg {
     height: 232%;
@@ -38,5 +96,27 @@
     margin-top: 0;
     margin-left: -15px;
     margin-bottom: 0;
+  }
+  #footerWrap > #footerWrapSecondRow {
+    padding-top: 76%;
+  }
+}
+@media screen and (max-width: 414px) {
+  #footerWrap > #footerWrapSecondRow {
+    padding-top: 156%;
+  }
+  #footerWrap > #footerWrapForm {
+    top: 9%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #footerWrap {
+    margin-top: 25%;
+  }
+  #footerWrap > #footerWrapSecondRow {
+    padding-top: 176%;
+  }
+  #footerWrap > #footerWrapForm {
+    top: 9%;
   }
 }
