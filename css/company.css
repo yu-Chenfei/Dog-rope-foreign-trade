@@ -1,0 +1,80 @@
+#bannerWrap {
+  padding: 0;
+}
+#oneWrap {
+  margin-top: 5%;
+  position: relative;
+  padding-bottom: 2%;
+}
+#oneWrap > .row {
+  width: 100%;
+}
+#oneWrap #oneRow {
+  overflow: hidden;
+}
+#oneWrap > #oneWrapRow > div {
+  background-color: #f8f8f8;
+  padding-bottom: 3%;
+}
+#oneWrap > #oneWrapRow #oneWrapRowTop {
+  right: 0;
+}
+#oneWrap > #oneWrapRow #oneWrapRowRight {
+  position: absolute;
+  left: 80%;
+  opacity: 0;
+}
+#oneWrap > #oneWrapRow .list_p {
+  padding: 7% 0;
+  font-weight: bold;
+  color: #dddddd;
+}
+#oneWrap > #oneWrapRow p {
+  line-height: 35px;
+}
+#oneWrap > #oneWrapRow h3 {
+  padding-top: 3%;
+  padding-bottom: 6%;
+}
+#oneWrap > #oneWrapRow .two_p {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#oneWrap > #oneWrapRow img {
+  width: 85%;
+  margin-left: -28%;
+}
+#oneWrap > #twoWrapRow {
+  position: absolute;
+  bottom: 16%;
+}
+#oneWrap > #twoWrapRow .on {
+  background-color: #f5992c;
+  color: white;
+}
+#twoWrap .row {
+  width: 100%;
+}
+#twoWrap > h3 {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+#twoWrap #twoWrapFirstRow p {
+  width: 80%;
+  line-height: 35px;
+}
+#twoWrap #twoWrapFirstRow img {
+  width: 80%;
+}
+@media screen and (max-width: 1024px) {
+  #oneWrap button {
+    display: none;
+  }
+  #oneWrap > #oneWrapRow {
+    text-align: center;
+  }
+  #oneWrap > #oneWrapRow img {
+    margin-left: 0;
+  }
+}
