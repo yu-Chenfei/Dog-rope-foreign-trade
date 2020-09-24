@@ -67,6 +67,14 @@
 #twoWrap #twoWrapFirstRow img {
   width: 80%;
 }
+#twoWrap #twoWrapSecondRow {
+  padding: 10% 0;
+}
+#twoWrap #twoWrapSecondRow p {
+  width: 80%;
+  line-height: 35px;
+  padding-top: 2%;
+}
 @media screen and (max-width: 1024px) {
   #oneWrap button {
     display: none;
@@ -76,5 +84,11 @@
   }
   #oneWrap > #oneWrapRow img {
     margin-left: 0;
+  }
+  #twoWrap > div {
+    text-align: center;
+  }
+  #twoWrap > div img {
+    display: inline;
   }
 }

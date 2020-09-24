@@ -1,0 +1,112 @@
+.row{
+  width: 100%;
+}
+
+// banner
+#bannerWrap{
+  padding: 0;
+  &>img{
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+
+// 模块一
+#oneWrap{
+  background-image: url(../img/1985bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  h3{
+    padding-top: 2%;
+  }
+  p{
+    padding-top: 3%;
+    padding-bottom: 4%;
+  }
+}
+
+// 模块二
+#twoWrap{
+  position: relative;
+  margin-bottom: 7%;
+  &>#oneRow{
+    p{
+      width: 150%;
+      padding: 20% 10%;
+      line-height: 35px;
+      position: absolute;
+      box-shadow: 0 0 20px rgba(173,173,173,.3);
+      z-index: 1;
+      margin-top: 20%;
+      background-color: white;
+      border-radius: 5px;
+    }
+  }
+}
+
+// 模块三
+#threeWrap{
+  margin-bottom: 7%;
+  &>#oneRow{
+    p{
+      width: 150%;
+      padding: 20% 10%;
+      line-height: 35px;
+      position: absolute;
+      box-shadow: 0 0 20px rgba(173,173,173,.3);
+      z-index: 1;
+      margin-top: 20%;
+      background-color: white;
+      border-radius: 5px;
+      right: 0;
+    }
+  }
+}
+
+// 模块四
+#fourWrap{
+  background-image: url(../img/THANKSbg.png);
+  background-size: center center;
+  background-repeat: no-repeat;
+  P{
+    width: 60%;
+    line-height: 35px;
+    padding-top: 4%;
+    padding-bottom: 13%;
+  }
+}
+
+// iPad Pro
+@media screen and (max-width: 1024px){
+  #twoWrap{
+    text-align: center;
+    &>#oneRow{
+      p{
+        width: 100%;
+        position: static;
+        margin-top: 0;
+      }
+    }
+  }
+  #threeWrap{
+    text-align: center;
+    &>#oneRow{
+      p{
+        width: 100%;
+        position: static;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+// Galaxy Fold
+@media screen and (max-width: 280px){
+  #emailDiv{
+    p{
+      padding-left: 0 !important;
+    }
+  }
+}

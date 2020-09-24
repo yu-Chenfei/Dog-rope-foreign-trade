@@ -1,0 +1,88 @@
+.row {
+  width: 100%;
+}
+#bannerWrap {
+  padding: 0;
+}
+#bannerWrap > img {
+  width: 100%;
+  vertical-align: middle;
+}
+#oneWrap {
+  background-image: url(../img/1985bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+#oneWrap h3 {
+  padding-top: 2%;
+}
+#oneWrap p {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+#twoWrap {
+  position: relative;
+  margin-bottom: 7%;
+}
+#twoWrap > #oneRow p {
+  width: 150%;
+  padding: 20% 10%;
+  line-height: 35px;
+  position: absolute;
+  box-shadow: 0 0 20px rgba(173, 173, 173, 0.3);
+  z-index: 1;
+  margin-top: 20%;
+  background-color: white;
+  border-radius: 5px;
+}
+#threeWrap {
+  margin-bottom: 7%;
+}
+#threeWrap > #oneRow p {
+  width: 150%;
+  padding: 20% 10%;
+  line-height: 35px;
+  position: absolute;
+  box-shadow: 0 0 20px rgba(173, 173, 173, 0.3);
+  z-index: 1;
+  margin-top: 20%;
+  background-color: white;
+  border-radius: 5px;
+  right: 0;
+}
+#fourWrap {
+  background-image: url(../img/THANKSbg.png);
+  background-size: center center;
+  background-repeat: no-repeat;
+}
+#fourWrap P {
+  width: 60%;
+  line-height: 35px;
+  padding-top: 4%;
+  padding-bottom: 13%;
+}
+@media screen and (max-width: 1024px) {
+  #twoWrap {
+    text-align: center;
+  }
+  #twoWrap > #oneRow p {
+    width: 100%;
+    position: static;
+    margin-top: 0;
+  }
+  #threeWrap {
+    text-align: center;
+  }
+  #threeWrap > #oneRow p {
+    width: 100%;
+    position: static;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 280px) {
+  #emailDiv p {
+    padding-left: 0 !important;
+  }
+}

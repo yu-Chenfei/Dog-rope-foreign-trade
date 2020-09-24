@@ -1,0 +1,24 @@
+.row {
+  width: 100%;
+}
+#bannerWrap {
+  padding: 0;
+}
+#bannerWrap > img {
+  width: 100%;
+  vertical-align: middle;
+}
+#oneWrap > #oneWrapTittle > h3 {
+  padding: 2% 0;
+}
+#oneWrap > #oneWrapBtn {
+  padding-bottom: 3%;
+}
+#oneWrap > #oneWrapBtn > button {
+  outline: none;
+}
+#oneWrap #oneRow p {
+  padding: 9% 0;
+  background-color: #f8f8f8;
+  color: #337ab7;
+}

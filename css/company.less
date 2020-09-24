@@ -61,7 +61,7 @@
   }
 }
 
-// 模块三
+// 模块二
 #twoWrap{
   .row{
     width: 100%;
@@ -79,10 +79,19 @@
       width: 80%;
     }
   }
+  #twoWrapSecondRow{
+    padding: 10% 0;
+    p{
+      width: 80%;
+      line-height: 35px;
+      padding-top: 2%;
+    }
+  }
 }
 
 // iPad Pro
 @media screen and (max-width: 1024px){
+  // 模块一
   #oneWrap{
     button{
       display: none;
@@ -91,6 +100,15 @@
       text-align: center;
       img{
         margin-left: 0;
+      }
+    }
+  }
+  // 模块二
+  #twoWrap{
+    &>div{
+      text-align: center;
+      img{
+        display: inline;
       }
     }
   }
